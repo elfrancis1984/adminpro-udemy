@@ -17,7 +17,7 @@ export class Graficas1Component implements OnInit {
     'grafico2': {
       'labels': ['Hombres', 'Mujeres'],
       'data':  [4500, 6000],
-      'type': 'doughnut',
+      'type': 'pie',
       'leyenda': 'Entrevistados'
     },
     'grafico3': {
