@@ -9,7 +9,7 @@ declare function init_plugins();
 })
 export class PagesComponent implements OnInit {
 
-  constructor() { 
+  constructor() {
     init_plugins();
   }
 
