@@ -14,12 +14,12 @@
                         <li><a href="javascript:void()">My Balance</a></li>
                         <li><a href="javascript:void()">Inbox</a></li>
                         <li><a routerActive="active" routerLink="/account-settings">Account Setting</a></li>
-                        <li><a routerLink="/login">Logout</a></li>
+                        <li><a (click)="_us.logout()" class="pointer">Logout</a></li>
                     </ul>
                 </li>
                 <li class="nav-devider"></li>
                 <li class="nav-small-cap">PERSONAL</li>
-                <li *ngFor="let menu of _ss.menu" > 
+                <li *ngFor="let menu of _ss.menu">
                     <a class="has-arrow waves-effect waves-dark" aria-expanded="false">
                         <i [class]="menu.icono"></i>
                         <span class="hide-menu">{{ menu.titulo }} 
