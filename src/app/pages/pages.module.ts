@@ -20,6 +20,7 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 import { ProfileComponent } from './profile/profile.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { ModaluploadComponent } from '../components/modalupload/modalupload.component';
+import { HospitalesComponent } from './hospitales/hospitales.component';
 
 
 
@@ -37,7 +38,8 @@ import { ModaluploadComponent } from '../components/modalupload/modalupload.comp
         RxjsComponent,
         ProfileComponent,
         UsuariosComponent,
-        ModaluploadComponent
+        ModaluploadComponent,
+        HospitalesComponent
     ],
     exports: [
         DashboardComponent,
