@@ -6,3 +6,4 @@ export { UsuarioService } from './usuario/usuario.service';
 export { HospitalService } from './hospital/hospital.service';
 export { SubirArchivoService } from './subir-archivo/subir-archivo.service';
 export { ModalUploadService } from '../components/modalupload/modal-upload.service';
+export { MedicoService } from './medico/medico.service';
