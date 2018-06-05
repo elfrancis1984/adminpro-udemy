@@ -1,9 +1,10 @@
 import { Injectable } from '@angular/core';
+import { UsuarioService } from '../usuario/usuario.service';
 
 @Injectable()
 export class SidebarService {
 
-  menu: any = [
+  /*menu: any = [ 
     {
       titulo: 'principal',
       icono: 'mdi mdi-gauge',
@@ -24,8 +25,14 @@ export class SidebarService {
         { titulo: 'Médicos', url: '/medicos' },
       ]
     }
-  ];
+  ];*/
 
-  constructor() { }
+  menu: any[] = [];
+
+  constructor( public _us: UsuarioService ) { }
+  
+  cargarMenu() {
+    this.menu = this._us.menu;
+  }
 
 }
