@@ -33,7 +33,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        PagesComponent,
+        // PagesComponent,
         IncrementadorComponent,
         GraficoDonaComponent,
         AccountSettingsComponent,
@@ -41,7 +41,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
         RxjsComponent,
         ProfileComponent,
         UsuariosComponent,
-        ModaluploadComponent,
+        // ModaluploadComponent,
         HospitalesComponent,
         MedicosComponent,
         MedicoComponent,
@@ -50,8 +50,8 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     exports: [
         DashboardComponent,
         ProgressComponent,
-        Graficas1Component,
-        PagesComponent
+        Graficas1Component/*,
+        PagesComponent*/
     ],
     imports: [
         SharedModule,
